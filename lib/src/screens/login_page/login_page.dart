@@ -1,3 +1,4 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:seinfeld/src/screens/home/home_page.dart';
 import 'package:seinfeld/src/routes/routes.dart';
@@ -136,8 +137,11 @@ class _LoginPageState extends State<LoginPage> {
      }
      else{isCorrectPassword = true;}
      if(isCorrectPassword && isCorrectUsername){
+       FirebaseAuth.instance.signInWithEmailAndPassword(email: userController.text, password: passController.text)
+       .then((currentUser) =>
        //Navigator.push(context, MaterialPageRoute(builder: (context) => HomePage()));
-       Routes.goToHomePage(context);
+       Routes.goToHomePage(context)
+       ).catchError((err) => print(err));
      }
     });
   }
