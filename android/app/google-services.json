@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "835639460796",
+    "firebase_url": "https://seinfield-flutter.firebaseio.com",
+    "project_id": "seinfield-flutter",
+    "storage_bucket": "seinfield-flutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835639460796:android:405bfb970aa9f3a2b421b9",
+        "android_client_info": {
+          "package_name": "com.example.seinfeld"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "835639460796-ffaj0hr3scgq26n3vb32gjsm9j8has6j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAERooSk8qG3Cb5BOhTIdU1KFtKvUz2iaI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "835639460796-ffaj0hr3scgq26n3vb32gjsm9j8has6j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
